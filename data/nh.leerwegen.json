@@ -1,0 +1,30 @@
+[
+	{
+		"title": "Kader beroeps",
+		"id": "b3a4b42b-5764-4305-a47c-52d70df1930a",
+		"unreleased": true,
+		"prefix": "",
+		"description": ""
+	},
+	{
+		"title": "Basis beroeps",
+		"id": "378225e8-3d43-4d44-ba7d-9c196fdf7e55",
+		"unreleased": true,
+		"prefix": "",
+		"description": ""
+	},
+	{
+		"title": "Gemengde leerweg",
+		"id": "cda74c5a-d13a-4892-b4fa-9f0a6760b3fb",
+		"unreleased": true,
+		"prefix": "",
+		"description": ""
+	},
+	{
+		"title": "Theoretische leerweg",
+		"id": "4e93e1bc-2d8d-4ba0-867f-889c032462b4",
+		"unreleased": true,
+		"prefix": "",
+		"description": ""
+	}
+]

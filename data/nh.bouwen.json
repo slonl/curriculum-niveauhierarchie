@@ -1,0 +1,23 @@
+[
+	{
+		"title": "Onderbouw",
+		"id": "3241149f-fff0-43f3-8697-0386397adc86",
+		"unreleased": true,
+		"prefix": "",
+		"description": ""
+	},
+	{
+		"title": "Middenbouw",
+		"id": "0b8c5de6-6966-4f6c-bb86-2cb89e7f87d2",
+		"unreleased": true,
+		"prefix": "",
+		"description": ""
+	},
+	{
+		"title": "Bovenbouw",
+		"id": "8a5cec2e-a6a4-49b0-8689-573c2c192e67",
+		"unreleased": true,
+		"prefix": "",
+		"description": ""
+	}
+]

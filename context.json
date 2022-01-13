@@ -1,0 +1,220 @@
+{
+    "definitions": {
+        "nh_categorie": {
+            "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
+            "properties": {
+                "prefix": { "type": "string" }
+			},
+			"niveau_id" : {
+				"allOf": [
+					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+				]
+			},
+			"nh_sector_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_sector"} }
+				]
+			},
+			"nh_niveau_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+				]
+            },
+            "anyOf": [
+                {
+                    "required": ["id","title","doelniveau_id"]
+                }
+            ]
+        },        
+        "nh_sector": {
+            "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
+            "properties": {
+                "prefix": { "type": "string" }
+			},
+			"niveau_id" : {
+				"allOf": [
+					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+				]
+			},
+			"nh_schoolsoort_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_schoolsoort"} }
+				]
+			},
+			"nh_bouw_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_bouw"} }
+				]
+			},
+			"nh_niveau_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+				]
+            },
+            "anyOf": [
+                {
+                    "required": ["id","title","doelniveau_id"]
+                }
+            ]
+        },        
+        "nh_schoolsoort": {
+            "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
+            "properties": {
+                "prefix": { "type": "string" }
+			},
+			"niveau_id" : {
+				"allOf": [
+					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+				]
+			},
+			"nh_leerweg_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_leerweg"} }
+				]
+			},
+			"nh_bouw_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_bouw"} }
+				]
+			},
+			"nh_niveau_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+				]
+            },
+            "anyOf": [
+                {
+                    "required": ["id","title","doelniveau_id"]
+                }
+            ]
+        },        
+        "nh_leerweg": {
+            "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
+            "properties": {
+                "prefix": { "type": "string" }
+			},
+			"niveau_id" : {
+				"allOf": [
+					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+				]
+			},
+			"nh_bouw_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_bouw"} }
+				]
+			},
+			"nh_niveau_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+				]
+            },
+            "anyOf": [
+                {
+                    "required": ["id","title","doelniveau_id"]
+                }
+            ]
+        },        
+        "nh_bouw": {
+            "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
+            "properties": {
+                "prefix": { "type": "string" }
+			},
+			"niveau_id" : {
+				"allOf": [
+					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+				]
+			},
+			"nh_niveau_id": {
+				"allOf": [
+					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+				]
+            },
+            "anyOf": [
+                {
+                    "required": ["id","title","doelniveau_id"]
+                }
+            ]
+        },        
+        "nh_niveau": {
+            "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
+            "properties": {
+                "prefix": {
+                    "type": "string"
+                }
+            },
+            "anyOf": [
+                {
+                    "required": ["id","title","doelniveau_id"]
+                }
+            ]
+        }        
+    },
+    "$id": "https://opendata.slo.nl/curriculum/schemas/curriculum-niveauhierarchie/context.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "nh_categorie": {
+            "#file": "data/nh.categorieen.json",
+            "type" : "array",
+            "items": {
+                "$ref": "#/definitions/nh_categorie"
+            }
+        },
+        "nh_sector": {
+            "#file": "data/nh.sectoren.json",
+            "type" : "array",
+            "items": {
+                "$ref": "#/definitions/nh_sector"
+            }
+        },
+        "nh_schoolsoort": {
+            "#file": "data/nh.schoolsoorten.json",
+            "type" : "array",
+            "items": {
+                "$ref": "#/definitions/nh_schoolsoort"
+            }
+        },
+        "nh_leerweg": {
+            "#file": "data/nh.leerwegen.json",
+            "type" : "array",
+            "items": {
+                "$ref": "#/definitions/nh_leerweg"
+            }
+        },
+        "nh_bouw": {
+            "#file": "data/nh.bouwen.json",
+            "type" : "array",
+            "items": {
+                "$ref": "#/definitions/nh_bouw"
+            }
+        },
+        "nh_niveau": {
+            "#file": "data/nh.niveaus.json",
+            "type" : "array",
+            "items": {
+                "$ref": "#/definitions/nh_niveau"
+            }
+        },
+        "deprecated": {
+            "#file": "data/deprecated.json",
+            "type" : "array"
+        }
+    },
+    "required": ["doelniveau","doel","niveau"]
+}
