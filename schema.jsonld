@@ -1,6 +1,6 @@
 {
 	"@context": {
-		"niveauhierarchie": "http://opendata.slo.nl/curriculum/schemas/niveauhierarchie.jsonld",
+		"erk": "http://opendata.slo.nl/curriculum/schemas/niveauhierarchie.jsonld",
 		"id": {
 			"@id": "@id"
 		},
@@ -13,7 +13,7 @@
 			"@type": "@id"
 		},
 		"deprecated": {
-			"@id": "niveauhierarchie:#Deprecated"
+			"@id": "erk:#Deprecated"
 		}
 	}
 }
