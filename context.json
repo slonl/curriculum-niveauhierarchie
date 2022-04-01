@@ -3,153 +3,166 @@
         "nh_categorie": {
             "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
             "properties": {
-                "prefix": { "type": "string" }
+                "prefix": { "type": "string" },
+				"niveau_id" : {
+					"allOf": [
+						{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+					]
+				},
+				"nh_sector_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_sector"} }
+					]
+				},
+				"nh_niveau_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+					]
+				}
 			},
-			"niveau_id" : {
-				"allOf": [
-					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
-				]
-			},
-			"nh_sector_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_sector"} }
-				]
-			},
-			"nh_niveau_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
-				]
-            },
-            "anyOf": [
-                {
-                    "required": ["id","title","doelniveau_id"]
-                }
-            ]
+			"anyOf": [
+				{
+					"required": ["id","title","nh_sector_id"]
+				},
+				{
+					"required": ["id","title","nh_niveau_id"]
+				}
+			]
         },        
         "nh_sector": {
             "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
             "properties": {
-                "prefix": { "type": "string" }
+                "prefix": { "type": "string" },
+				"niveau_id" : {
+					"allOf": [
+						{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+					]
+				},
+				"nh_schoolsoort_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_schoolsoort"} }
+					]
+				},
+				"nh_bouw_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_bouw"} }
+					]
+				},
+				"nh_niveau_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+					]
+				}
 			},
-			"niveau_id" : {
-				"allOf": [
-					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
-				]
-			},
-			"nh_schoolsoort_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_schoolsoort"} }
-				]
-			},
-			"nh_bouw_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_bouw"} }
-				]
-			},
-			"nh_niveau_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
-				]
-            },
             "anyOf": [
                 {
-                    "required": ["id","title","doelniveau_id"]
+                    "required": ["id","title","nh_schoolsoort_id"]
+                },
+                {
+                    "required": ["id","title","nh_bouw_id"]
+                },
+                {
+                    "required": ["id","title","nh_niveau_id"]
                 }
             ]
         },        
         "nh_schoolsoort": {
             "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
             "properties": {
-                "prefix": { "type": "string" }
+                "prefix": { "type": "string" },
+				"niveau_id" : {
+					"allOf": [
+						{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+					]
+				},
+				"nh_leerweg_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_leerweg"} }
+					]
+				},
+				"nh_bouw_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_bouw"} }
+					]
+				},
+				"nh_niveau_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+					]
+				}
 			},
-			"niveau_id" : {
-				"allOf": [
-					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
-				]
-			},
-			"nh_leerweg_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_leerweg"} }
-				]
-			},
-			"nh_bouw_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_bouw"} }
-				]
-			},
-			"nh_niveau_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
-				]
-            },
             "anyOf": [
                 {
-                    "required": ["id","title","doelniveau_id"]
+                    "required": ["id","title","nh_leerweg_id"]
+                },
+                {
+                    "required": ["id","title","nh_bouw_id"]
+                },
+                {
+                    "required": ["id","title","nh_niveau_id"]
                 }
             ]
         },        
         "nh_leerweg": {
             "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
             "properties": {
-                "prefix": { "type": "string" }
+                "prefix": { "type": "string" },
+				"niveau_id" : {
+					"allOf": [
+						{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+					]
+				},
+				"nh_bouw_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_bouw"} }
+					]
+				},
+				"nh_niveau_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+					]
+				}
 			},
-			"niveau_id" : {
-				"allOf": [
-					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
-				]
-			},
-			"nh_bouw_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_bouw"} }
-				]
-			},
-			"nh_niveau_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
-				]
-            },
             "anyOf": [
                 {
-                    "required": ["id","title","doelniveau_id"]
+                    "required": ["id","title","nh_bouw_id"]
+                },
+                {
+                    "required": ["id","title","nh_niveau_id"]
                 }
             ]
         },        
         "nh_bouw": {
             "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
             "properties": {
-                "prefix": { "type": "string" }
-			},
-			"niveau_id" : {
-				"allOf": [
-					{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
-				]
-			},
-			"nh_niveau_id": {
-				"allOf": [
-					{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
-					{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
-				]
-            },
-            "anyOf": [
-                {
-                    "required": ["id","title","doelniveau_id"]
-                }
-            ]
+                "prefix": { "type": "string" },
+				"niveau_id" : {
+					"allOf": [
+						{ "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
+					]
+				},
+				"nh_niveau_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
+					]
+				}
+			}
         },        
         "nh_niveau": {
             "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
@@ -157,12 +170,7 @@
                 "prefix": {
                     "type": "string"
                 }
-            },
-            "anyOf": [
-                {
-                    "required": ["id","title","doelniveau_id"]
-                }
-            ]
+            }
         }        
     },
     "$id": "https://opendata.slo.nl/curriculum/schemas/curriculum-niveauhierarchie/context.json",
