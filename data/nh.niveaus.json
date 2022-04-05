@@ -1,12 +1,5 @@
 [
 	{
-		"title": "A1",
-		"id": "dbbd4e2c-934d-4b31-b1b9-c8cfd9c3c2d1",
-		"unreleased": true,
-		"prefix": "",
-		"description": ""
-	},
-	{
 		"title": "2F",
 		"id": "d7991541-55ca-4b39-8b4b-4d473bbe4973",
 		"unreleased": true,
@@ -36,51 +29,61 @@
 	},
 	{
 		"title": "pre A1",
+		"description": "Europees referentiekader pre A1 moderne vreemde talen",
 		"id": "fad4d973-6d34-4eb9-b466-10b0eec8947e",
 		"unreleased": true
 	},
 	{
 		"title": "A1",
+		"description": "Europees referentiekader A1 moderne vreemde talen",
 		"id": "7efc96f1-54cc-47a5-bc31-96ea28b4995b",
 		"unreleased": true
 	},
 	{
 		"title": "A2",
+		"description": "Europees referentiekader A2 moderne vreemde talen",
 		"id": "c01f4d51-3d84-4914-aefd-52b2d5e5f24c",
 		"unreleased": true
 	},
 	{
 		"title": "A2+",
+		"description": "Europees referentiekader A2+ moderne vreemde talen",
 		"id": "6dae5bc8-8ccd-4d42-af34-7dfd1abfb932",
 		"unreleased": true
 	},
 	{
 		"title": "B1",
+		"description": "Europees referentiekader B1 moderne vreemde talen",
 		"id": "f49681b5-032c-4c86-81c2-d213b0ed6a4d",
 		"unreleased": true
 	},
 	{
 		"title": "B1+",
+		"description": "Europees referentiekader B1+ moderne vreemde talen",
 		"id": "e35a152f-f267-4f9b-9df8-a7fafd09469f",
 		"unreleased": true
 	},
 	{
 		"title": "B2",
+		"description": "Europees referentiekader B2 moderne vreemde talen",
 		"id": "b296c63c-1a4f-462e-98a7-009e11414938",
 		"unreleased": true
 	},
 	{
 		"title": "B2+",
+		"description": "Europees referentiekader B2+ moderne vreemde talen",
 		"id": "1853722a-8f41-43d5-b025-d84706417111",
 		"unreleased": true
 	},
 	{
 		"title": "C1",
+		"description": "Europees referentiekader C1 moderne vreemde talen",
 		"id": "564a997d-1773-4ee7-bef1-9e6550b4d3aa",
 		"unreleased": true
 	},
 	{
 		"title": "C2",
+		"description": "Europees referentiekader C2 moderne vreemde talen",
 		"id": "21eeb2df-50fb-42dd-8891-a2a660e987cb",
 		"unreleased": true
 	},
