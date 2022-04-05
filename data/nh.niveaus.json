@@ -4,7 +4,10 @@
 		"id": "d7991541-55ca-4b39-8b4b-4d473bbe4973",
 		"unreleased": true,
 		"prefix": "",
-		"description": ""
+		"description": "Referentiekader taal en rekenen, fundamenteel niveau 2",
+		"niveau_id": [
+			"5eac0434-a6fc-4499-9710-3d6b800973a3"
+		]
 	},
 	{
 		"title": "fase 3",
@@ -85,6 +88,69 @@
 		"title": "C2",
 		"description": "Europees referentiekader C2 moderne vreemde talen",
 		"id": "21eeb2df-50fb-42dd-8891-a2a660e987cb",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"d5f99b58-31be-4ffc-89f4-9d7c65526879"
+		],
+		"description": "Referentiekader taal en rekenen, fundamenteel niveau 1",
+		"title": "1F",
+		"id": "4663d5b2-4893-416f-b753-bb46afbaff7e",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"86d05d5a-8dfa-422b-820c-50019985426d"
+		],
+		"description": "Referentiekader taal en rekenen, streefniveau 1",
+		"title": "1S",
+		"id": "40080b18-f797-469d-992b-aa691af19079",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"fadc20aa-082e-4e80-8a83-830c4006f236"
+		],
+		"description": "Referentiekader taal en rekenen, streefniveau 2",
+		"title": "2S",
+		"id": "5a7d2bbd-c295-4525-8ab9-e95d849178ba",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"f1d56c9e-373a-4051-9ce9-81a01b812de7"
+		],
+		"description": "Referentiekader taal en rekenen, fundamenteel niveau 3",
+		"title": "3F",
+		"id": "5c2ff149-21d4-44e3-97d4-10c1b69941f9",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"2be1fbb4-d46f-44f8-9aff-d2bbf5108a18"
+		],
+		"description": "Referentiekader taal en rekenen, streefniveau 3",
+		"title": "3S",
+		"id": "35cd88a2-1027-48d3-8438-58739a6ca5ed",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"5ec6d733-a3b2-46db-9d42-72b4be4f7750"
+		],
+		"description": "Referentiekader taal en rekenen, fundamenteel niveau 4",
+		"title": "4F",
+		"id": "c849b97a-ac86-4cc1-af19-226c2d0896bb",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"7bae4f16-ed94-4739-9d42-d0842dee7c90"
+		],
+		"description": "Referentiekader taal en rekenen, streefniveau 4",
+		"title": "4S",
+		"id": "516c7aff-7ed1-4cfb-9630-dc4fb95fd168",
 		"unreleased": true
 	}
 ]
