@@ -7,31 +7,11 @@
 		"description": ""
 	},
 	{
-		"title": "Referentiekaders Taal en Rekenen",
+		"title": "Referentiekaders",
 		"id": "beeacce4-b995-4798-8e61-48516a0a64e3",
 		"unreleased": true,
 		"prefix": "",
-		"description": "",
-		"niveau_id": [
-			"d5f99b58-31be-4ffc-89f4-9d7c65526879",
-			"86d05d5a-8dfa-422b-820c-50019985426d",
-			"5eac0434-a6fc-4499-9710-3d6b800973a3",
-			"fadc20aa-082e-4e80-8a83-830c4006f236",
-			"f1d56c9e-373a-4051-9ce9-81a01b812de7",
-			"2be1fbb4-d46f-44f8-9aff-d2bbf5108a18",
-			"5ec6d733-a3b2-46db-9d42-72b4be4f7750",
-			"7bae4f16-ed94-4739-9d42-d0842dee7c90"
-		],
-		"nh_niveau_id": [
-			"776599cb-83eb-4af2-95b0-4a132f52a9f6",
-			"7a8cffd8-7a0f-4593-8aa9-838e6852c329",
-			"d7991541-55ca-4b39-8b4b-4d473bbe4973",
-			"3965bf3b-ae7d-45c5-a8b6-94ea94cbd9e5",
-			"a3cd81de-51a9-4a93-9e4c-322271540189",
-			"04455829-1d3c-41ae-9251-9c4e26ab0873",
-			"7a74ce00-6b21-4dc6-af97-293106dd0974",
-			"587b40e9-8454-43df-a2c5-38e7009e5c38"
-		]
+		"description": ""
 	},
 	{
 		"title": "Europees referentiekader",
