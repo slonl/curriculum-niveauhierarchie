@@ -14,7 +14,7 @@
 		"id": "9574cb7d-15aa-4607-ab63-3dc0aecb6ca5",
 		"unreleased": true,
 		"prefix": "",
-		"description": "",
+		"description": "bovenbouw primair onderwijs: groep 7, groep 8",
 		"niveau_id": [
 			"fc0fa444-07f6-4744-b7a7-6f9aadeeff42"
 		]
@@ -192,7 +192,8 @@
 		],
 		"title": "fase 1",
 		"id": "1058b1f8-e9d7-4f7e-b556-8c9cd091790a",
-		"unreleased": true
+		"unreleased": true,
+		"description": "onderbouw primair onderwijs groep 1, groep 2, groep 3"
 	},
 	{
 		"niveau_id": [
@@ -200,7 +201,8 @@
 		],
 		"title": "fase 2",
 		"id": "33e2108f-aebf-4352-84ac-609f669666fe",
-		"unreleased": true
+		"unreleased": true,
+		"description": "middenbouw primair onderwijs: groep 4, groep 5, groep 6"
 	},
 	{
 		"niveau_id": [
@@ -208,7 +210,8 @@
 		],
 		"title": "fase 4",
 		"id": "50b34dc9-7b36-460a-84e8-94a1559dfb01",
-		"unreleased": true
+		"unreleased": true,
+		"description": "onderbouw voortgezet onderwijs: klas 1, klas 2"
 	},
 	{
 		"niveau_id": [
@@ -216,6 +219,7 @@
 		],
 		"title": "fase 5",
 		"id": "ef25a957-8600-4d15-bdb4-3d3c8442236b",
-		"unreleased": true
+		"unreleased": true,
+		"description": "bovenbouw voortgezet onderwijs: klas 3, klas 4, klas 5, klas 6"
 	}
 ]
