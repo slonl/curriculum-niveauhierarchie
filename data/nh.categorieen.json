@@ -12,16 +12,6 @@
 		"unreleased": true,
 		"prefix": "",
 		"description": "",
-		"niveau_id": [
-			"d5f99b58-31be-4ffc-89f4-9d7c65526879",
-			"86d05d5a-8dfa-422b-820c-50019985426d",
-			"5eac0434-a6fc-4499-9710-3d6b800973a3",
-			"fadc20aa-082e-4e80-8a83-830c4006f236",
-			"f1d56c9e-373a-4051-9ce9-81a01b812de7",
-			"2be1fbb4-d46f-44f8-9aff-d2bbf5108a18",
-			"5ec6d733-a3b2-46db-9d42-72b4be4f7750",
-			"7bae4f16-ed94-4739-9d42-d0842dee7c90"
-		],
 		"nh_niveau_id": [
 			"4663d5b2-4893-416f-b753-bb46afbaff7e",
 			"40080b18-f797-469d-992b-aa691af19079",
@@ -39,18 +29,6 @@
 		"unreleased": true,
 		"prefix": "",
 		"description": "",
-		"niveau_id": [
-			"677c431e-7ac6-438f-8204-aea78aef7025",
-			"ebf1cc90-05cb-4976-9561-dfb2041ca264",
-			"1d5d9624-055f-42ed-bc39-06b183ecb40b",
-			"620710de-54d2-48b5-93ab-40888732aab7",
-			"a94b005d-9697-49f6-897a-0ad6516044f9",
-			"a0f545f9-a077-49fd-ab13-ef3533430ee6",
-			"f7920461-e732-4767-b855-87783a05c76a",
-			"01c9a4f8-34f3-4579-8bfb-7a00211e29ee",
-			"50fd5672-94d8-4445-b988-bb198f5515f4",
-			"2208c586-9043-47c1-b66b-536a50577725"
-		],
 		"nh_niveau_id": [
 			"fad4d973-6d34-4eb9-b466-10b0eec8947e",
 			"7efc96f1-54cc-47a5-bc31-96ea28b4995b",

@@ -31,60 +31,90 @@
 		"description": ""
 	},
 	{
+		"niveau_id": [
+			"677c431e-7ac6-438f-8204-aea78aef7025"
+		],
 		"title": "pre A1",
 		"description": "Europees referentiekader pre A1 moderne vreemde talen",
 		"id": "fad4d973-6d34-4eb9-b466-10b0eec8947e",
 		"unreleased": true
 	},
 	{
+		"niveau_id": [
+			"ebf1cc90-05cb-4976-9561-dfb2041ca264"
+		],
 		"title": "A1",
 		"description": "Europees referentiekader A1 moderne vreemde talen",
 		"id": "7efc96f1-54cc-47a5-bc31-96ea28b4995b",
 		"unreleased": true
 	},
 	{
+		"niveau_id": [
+			"1d5d9624-055f-42ed-bc39-06b183ecb40b"
+		],
 		"title": "A2",
 		"description": "Europees referentiekader A2 moderne vreemde talen",
 		"id": "c01f4d51-3d84-4914-aefd-52b2d5e5f24c",
 		"unreleased": true
 	},
 	{
+		"niveau_id": [
+			"620710de-54d2-48b5-93ab-40888732aab7"
+		],
 		"title": "A2+",
 		"description": "Europees referentiekader A2+ moderne vreemde talen",
 		"id": "6dae5bc8-8ccd-4d42-af34-7dfd1abfb932",
 		"unreleased": true
 	},
 	{
+		"niveau_id": [
+			"a94b005d-9697-49f6-897a-0ad6516044f9"
+		],
 		"title": "B1",
 		"description": "Europees referentiekader B1 moderne vreemde talen",
 		"id": "f49681b5-032c-4c86-81c2-d213b0ed6a4d",
 		"unreleased": true
 	},
 	{
+		"niveau_id": [
+			"a0f545f9-a077-49fd-ab13-ef3533430ee6"
+		],
 		"title": "B1+",
 		"description": "Europees referentiekader B1+ moderne vreemde talen",
 		"id": "e35a152f-f267-4f9b-9df8-a7fafd09469f",
 		"unreleased": true
 	},
 	{
+		"niveau_id": [
+			"f7920461-e732-4767-b855-87783a05c76a"
+		],
 		"title": "B2",
 		"description": "Europees referentiekader B2 moderne vreemde talen",
 		"id": "b296c63c-1a4f-462e-98a7-009e11414938",
 		"unreleased": true
 	},
 	{
+		"niveau_id": [
+			"01c9a4f8-34f3-4579-8bfb-7a00211e29ee"
+		],
 		"title": "B2+",
 		"description": "Europees referentiekader B2+ moderne vreemde talen",
 		"id": "1853722a-8f41-43d5-b025-d84706417111",
 		"unreleased": true
 	},
 	{
+		"niveau_id": [
+			"50fd5672-94d8-4445-b988-bb198f5515f4"
+		],
 		"title": "C1",
 		"description": "Europees referentiekader C1 moderne vreemde talen",
 		"id": "564a997d-1773-4ee7-bef1-9e6550b4d3aa",
 		"unreleased": true
 	},
 	{
+		"niveau_id": [
+			"2208c586-9043-47c1-b66b-536a50577725"
+		],
 		"title": "C2",
 		"description": "Europees referentiekader C2 moderne vreemde talen",
 		"id": "21eeb2df-50fb-42dd-8891-a2a660e987cb",
