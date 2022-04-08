@@ -1,5 +1,14 @@
 [
 	{
+		"niveau_id": [
+			"15d693b8-fbe1-4112-8135-4a20aba5101c"
+		],
+		"description": "Voor- en vroegschoolse educatie",
+		"title": "vve",
+		"id": "a07eacb8-ed3f-471f-bd84-78b97594ae9c",
+		"unreleased": true
+	},
+	{
 		"title": "po",
 		"id": "21d69e0e-8185-4e01-89ea-bf34670f120b",
 		"unreleased": true,
@@ -33,15 +42,6 @@
 			"dcf503ac-7bcd-41bf-bf1e-410c9db77a7d",
 			"869d31b2-2c2b-4559-b789-8810093146cd"
 		]
-	},
-	{
-		"niveau_id": [
-			"15d693b8-fbe1-4112-8135-4a20aba5101c"
-		],
-		"description": "Voor- en vroegschoolse educatie",
-		"title": "vve",
-		"id": "a07eacb8-ed3f-471f-bd84-78b97594ae9c",
-		"unreleased": true
 	},
 	{
 		"niveau_id": [
