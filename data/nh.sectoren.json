@@ -39,15 +39,6 @@
 	},
 	{
 		"niveau_id": [
-			"d6f1bbf7-c1a6-4431-bcbd-f33126d851ef"
-		],
-		"description": "Praktijkonderwijs",
-		"title": "pro",
-		"id": "17db5aae-b7a4-4c69-b9a7-f53b9818941e",
-		"unreleased": true
-	},
-	{
-		"niveau_id": [
 			"e7f1c08f-08fb-48ab-be8e-c131b1bce54a"
 		],
 		"description": "Speciaal onderwijs",
