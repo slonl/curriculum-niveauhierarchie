@@ -50,7 +50,11 @@
 		"description": "Speciaal onderwijs",
 		"title": "so",
 		"id": "32d2373c-d791-43c9-9fab-e61a0b673956",
-		"unreleased": true
+		"unreleased": true,
+		"nh_schoolsoort_id": [
+			"9941e5a0-3c50-4780-be3a-d83fd46491d5",
+			"5b93b847-e4a7-4060-a04e-8577341ff38d"
+		]
 	},
 	{
 		"niveau_id": [
@@ -59,7 +63,12 @@
 		"description": "Vootgezet speciaal onderwijs",
 		"title": "vso",
 		"id": "b34b0395-8531-4401-93f4-1dddeab489a9",
-		"unreleased": true
+		"unreleased": true,
+		"nh_schoolsoort_id": [
+			"21b8e5ea-ac23-42b1-a501-07c9abd4aa2d",
+			"eab4c991-fc04-47c2-ba6c-a70e3c658b52",
+			"7c346962-2f1d-40a7-98b2-72c997a2c325"
+		]
 	},
 	{
 		"description": "Volwasseneneducatie",
