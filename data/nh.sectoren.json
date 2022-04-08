@@ -1,9 +1,63 @@
 [
 	{
-		"title": "Primair onderwijs",
+		"title": "po",
 		"id": "21d69e0e-8185-4e01-89ea-bf34670f120b",
 		"unreleased": true,
 		"prefix": "",
-		"description": ""
+		"description": "Primair onderwijs",
+		"niveau_id": [
+			"512e4729-03a4-43a2-95ba-758071d1b725"
+		]
+	},
+	{
+		"niveau_id": [
+			"2a1401e9-c223-493b-9b86-78f6993b1a8d"
+		],
+		"description": "Voortgezet onderwijs",
+		"title": "vo",
+		"id": "d4a1f60d-72ff-4e51-8b21-dab972373151",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"15d693b8-fbe1-4112-8135-4a20aba5101c"
+		],
+		"description": "Voor- en vroegschoolse educatie",
+		"title": "vve",
+		"id": "a07eacb8-ed3f-471f-bd84-78b97594ae9c",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"d6f1bbf7-c1a6-4431-bcbd-f33126d851ef"
+		],
+		"description": "Praktijkonderwijs",
+		"title": "pro",
+		"id": "17db5aae-b7a4-4c69-b9a7-f53b9818941e",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"e7f1c08f-08fb-48ab-be8e-c131b1bce54a"
+		],
+		"description": "Speciaal onderwijs",
+		"title": "so",
+		"id": "32d2373c-d791-43c9-9fab-e61a0b673956",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"dbbc3e87-a848-4425-912a-d494e43e5e59"
+		],
+		"description": "Vootgezet speciaal onderwijs",
+		"title": "vso",
+		"id": "b34b0395-8531-4401-93f4-1dddeab489a9",
+		"unreleased": true
+	},
+	{
+		"description": "Volwasseneneducatie",
+		"title": "ve",
+		"id": "b79120af-b908-415a-bea9-522a85adf1b2",
+		"unreleased": true
 	}
 ]
