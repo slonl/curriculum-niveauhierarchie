@@ -26,7 +26,13 @@
 		"description": "Voortgezet onderwijs",
 		"title": "vo",
 		"id": "d4a1f60d-72ff-4e51-8b21-dab972373151",
-		"unreleased": true
+		"unreleased": true,
+		"nh_schoolsoort_id": [
+			"c8dad7b9-fa51-45bb-9c2b-49ecf3635aae",
+			"d15ffcd2-926b-40aa-a81d-dfb24d35cb79",
+			"dcf503ac-7bcd-41bf-bf1e-410c9db77a7d",
+			"869d31b2-2c2b-4559-b789-8810093146cd"
+		]
 	},
 	{
 		"niveau_id": [
