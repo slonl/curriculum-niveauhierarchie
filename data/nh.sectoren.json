@@ -7,6 +7,16 @@
 		"description": "Primair onderwijs",
 		"niveau_id": [
 			"512e4729-03a4-43a2-95ba-758071d1b725"
+		],
+		"nh_niveau_id": [
+			"92cc8015-b824-47bb-a6e0-54ddd434870c",
+			"4b3034f4-408f-4558-9ab6-e9c1c42860fb",
+			"171d26b1-d4e7-48a0-97d0-d97a9660c391",
+			"848b5a29-a147-4368-a910-8655c6deec5e",
+			"da285666-5f4d-4a97-8519-8133c1e855c4",
+			"8b3a7db2-e48c-4604-b07b-196e7c485c54",
+			"db85b4d7-7264-47ba-be31-24f2423f86e9",
+			"fd893fe5-5573-43a6-b8bb-64ff5db8ec77"
 		]
 	},
 	{
@@ -58,6 +68,12 @@
 		"description": "Volwasseneneducatie",
 		"title": "ve",
 		"id": "b79120af-b908-415a-bea9-522a85adf1b2",
-		"unreleased": true
+		"unreleased": true,
+		"nh_niveau_id": [
+			"9642a649-2a16-49f4-b409-aa27f13803ab",
+			"3c73d412-545b-4113-9030-19693e1aa765",
+			"33f12c95-4ac7-4d55-936c-1be9bba864e1",
+			"8e895dcf-2215-45bf-bd8f-ceaec79774f2"
+		]
 	}
 ]
