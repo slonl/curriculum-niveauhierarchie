@@ -18,12 +18,8 @@
 				}
 			},
 			"anyOf": [
-				{
-					"required": ["id","title","nh_sector_id"]
-				},
-				{
-					"required": ["id","title","nh_niveau_id"]
-				}
+				{ "required": ["id","title","nh_sector_id"] },
+				{ "required": ["id","title","nh_niveau_id"] }
 			]
         },        
         "nh_sector": {
@@ -56,15 +52,9 @@
 				}
 			},
             "anyOf": [
-                {
-                    "required": ["id","title","nh_schoolsoort_id"]
-                },
-                {
-                    "required": ["id","title","nh_bouw_id"]
-                },
-                {
-                    "required": ["id","title","nh_niveau_id"]
-                }
+                { "required": ["id","title","nh_schoolsoort_id"] },
+                { "required": ["id","title","nh_bouw_id"] },
+                { "required": ["id","title","nh_niveau_id"] }
             ]
         },        
         "nh_schoolsoort": {
@@ -97,15 +87,9 @@
 				}
 			},
             "anyOf": [
-                {
-                    "required": ["id","title","nh_leerweg_id"]
-                },
-                {
-                    "required": ["id","title","nh_bouw_id"]
-                },
-                {
-                    "required": ["id","title","nh_niveau_id"]
-                }
+                { "required": ["id","title","nh_leerweg_id"] },
+                { "required": ["id","title","nh_bouw_id"] },
+                { "required": ["id","title","nh_niveau_id"] }
             ]
         },        
         "nh_leerweg": {
@@ -132,12 +116,8 @@
 				}
 			},
             "anyOf": [
-                {
-                    "required": ["id","title","nh_bouw_id"]
-                },
-                {
-                    "required": ["id","title","nh_niveau_id"]
-                }
+                { "required": ["id","title","nh_bouw_id"] },
+                { "required": ["id","title","nh_niveau_id"] }
             ]
         },        
         "nh_bouw": {
@@ -150,13 +130,36 @@
 						{ "items": { "itemTypeReference": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/niveau" } }
 					]
 				},
+				"nh_sector_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_sector"} }
+					]
+				},
+				"nh_schoolsoort_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_schoolsoort"} }
+					]
+				},
+				"nh_leerweg_id": {
+					"allOf": [
+						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
+						{	"items": { "itemTypeReference": "#/definitions/nh_leerweg"} }
+					]
+				},
 				"nh_niveau_id": {
 					"allOf": [
 						{	"$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/uuidArray" },
 						{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
 					]
 				}
-			}
+			},
+            "anyOf": [
+                { "required": ["id","title","nh_sector_id"] },
+                { "required": ["id","title","nh_schoolsoort_id"] },
+                { "required": ["id","title","nh_leerweg_id"] }
+            ]
         },        
         "nh_niveau": {
             "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
