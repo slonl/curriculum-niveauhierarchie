@@ -1,19 +1,5 @@
 [
 	{
-		"title": "groep 4",
-		"id": "250f931a-4109-4879-99bc-4d46ff9c259c",
-		"unreleased": true,
-		"prefix": "",
-		"description": ""
-	},
-	{
-		"title": "leerjaar 5",
-		"id": "b7ae63c0-2b78-4957-837c-dd7e74a3c1b0",
-		"unreleased": true,
-		"prefix": "",
-		"description": ""
-	},
-	{
 		"niveau_id": [
 			"677c431e-7ac6-438f-8204-aea78aef7025"
 		],
