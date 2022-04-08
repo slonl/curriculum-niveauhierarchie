@@ -211,7 +211,7 @@
 		"title": "fase 4",
 		"id": "50b34dc9-7b36-460a-84e8-94a1559dfb01",
 		"unreleased": true,
-		"description": "onderbouw voortgezet onderwijs: klas 1, klas 2"
+		"description": "onderbouw voortgezet onderwijs: leerjaar 1, leerjaar 2"
 	},
 	{
 		"niveau_id": [
@@ -220,6 +220,6 @@
 		"title": "fase 5",
 		"id": "ef25a957-8600-4d15-bdb4-3d3c8442236b",
 		"unreleased": true,
-		"description": "bovenbouw voortgezet onderwijs: klas 3, klas 4, klas 5, klas 6"
+		"description": "bovenbouw voortgezet onderwijs: leerjaar 3, leerjaar 4, leerjaar 5, leerjaar 6"
 	}
 ]
