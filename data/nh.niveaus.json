@@ -315,5 +315,35 @@
 		"title": "groep 8",
 		"id": "fd893fe5-5573-43a6-b8bb-64ff5db8ec77",
 		"unreleased": true
+	},
+	{
+		"title": "Leerjaar 1",
+		"id": "3583dab1-ca67-4c96-bb1f-b9dae01e263c",
+		"unreleased": true
+	},
+	{
+		"title": "Leerjaar 2",
+		"id": "228f9977-65f8-4779-86b9-c8cdbaa69ce9",
+		"unreleased": true
+	},
+	{
+		"title": "Leerjaar 3",
+		"id": "7c66271a-cac4-4496-a8d6-8eb8783e5e12",
+		"unreleased": true
+	},
+	{
+		"title": "Leerjaar 4",
+		"id": "e6acddd9-d132-4aa3-8c20-9d7c8fd10b18",
+		"unreleased": true
+	},
+	{
+		"title": "Leerjaar 5",
+		"id": "b2a5dfbd-8766-47e6-8754-27580794f8bd",
+		"unreleased": true
+	},
+	{
+		"title": "Leerjaar 6",
+		"id": "1c53dd6b-c85a-4fb2-b65f-cf422cfbce66",
+		"unreleased": true
 	}
 ]
