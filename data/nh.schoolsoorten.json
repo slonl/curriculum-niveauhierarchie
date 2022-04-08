@@ -1,9 +1,45 @@
 [
 	{
-		"title": "Havo",
+		"title": "havo",
 		"id": "d15ffcd2-926b-40aa-a81d-dfb24d35cb79",
 		"unreleased": true,
 		"prefix": "",
-		"description": ""
+		"description": "Hoger algemeen voortgezet onderwijs",
+		"niveau_id": [
+			"a3ddbe60-8478-4204-b769-6f5e9f4cbca2"
+		]
+	},
+	{
+		"niveau_id": [
+			"c7942bb1-bf4f-409f-bc98-9a0b02f175dc"
+		],
+		"nh_leerweg_id": [
+			"378225e8-3d43-4d44-ba7d-9c196fdf7e55",
+			"b3a4b42b-5764-4305-a47c-52d70df1930a",
+			"cda74c5a-d13a-4892-b4fa-9f0a6760b3fb",
+			"4e93e1bc-2d8d-4ba0-867f-889c032462b4"
+		],
+		"description": "Voorbereidend middelbaar beroepsonderwijs",
+		"title": "vmbo",
+		"id": "c8dad7b9-fa51-45bb-9c2b-49ecf3635aae",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"ad9872e5-edc4-4a62-9ee7-ba7daceba2e0"
+		],
+		"description": "Voorbereidend wetenschappelijk onderwijs",
+		"title": "vwo",
+		"id": "dcf503ac-7bcd-41bf-bf1e-410c9db77a7d",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"d6f1bbf7-c1a6-4431-bcbd-f33126d851ef"
+		],
+		"description": "Praktijonderwijs",
+		"title": "pro",
+		"id": "869d31b2-2c2b-4559-b789-8810093146cd",
+		"unreleased": true
 	}
 ]
