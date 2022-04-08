@@ -54,18 +54,7 @@
 						{	"items": { "itemTypeReference": "#/definitions/nh_niveau"} }
 					]
 				}
-			},
-            "anyOf": [
-                {
-                    "required": ["id","title","nh_schoolsoort_id"]
-                },
-                {
-                    "required": ["id","title","nh_bouw_id"]
-                },
-                {
-                    "required": ["id","title","nh_niveau_id"]
-                }
-            ]
+			}
         },        
         "nh_schoolsoort": {
             "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
