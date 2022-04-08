@@ -221,5 +221,113 @@
 		"id": "ef25a957-8600-4d15-bdb4-3d3c8442236b",
 		"unreleased": true,
 		"description": "bovenbouw voortgezet onderwijs: leerjaar 3, leerjaar 4, leerjaar 5, leerjaar 6"
+	},
+	{
+		"niveau_id": [
+			"6219cc2d-2545-4893-84a0-30395794f2f4"
+		],
+		"description": "Volwasseneneducatie",
+		"title": "niveau 1",
+		"id": "9642a649-2a16-49f4-b409-aa27f13803ab",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"e0a398b0-838b-409e-807a-f0f587dfd7c7"
+		],
+		"description": "Volwasseneneducatie",
+		"title": "niveau 2",
+		"id": "3c73d412-545b-4113-9030-19693e1aa765",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"de5e9d28-7c80-4167-8d34-74520a55c27d"
+		],
+		"description": "Volwasseneneducatie",
+		"title": "niveau 3",
+		"id": "33f12c95-4ac7-4d55-936c-1be9bba864e1",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"655a4e1f-c9cf-464b-868e-f8aa2c813b89"
+		],
+		"description": "Volwasseneneducatie",
+		"title": "niveau 4",
+		"id": "8e895dcf-2215-45bf-bd8f-ceaec79774f2",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"82ca4442-246c-44b3-a562-7b101793feb4"
+		],
+		"description": "primair onderwijs, groep 1",
+		"title": "groep 1",
+		"id": "92cc8015-b824-47bb-a6e0-54ddd434870c",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"c007e4dd-a3d4-4f33-902d-778e3bbeeddb"
+		],
+		"description": "primair onderwijs, groep 2",
+		"title": "groep 2",
+		"id": "4b3034f4-408f-4558-9ab6-e9c1c42860fb",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"25a2f4f4-cf91-4b16-94bc-6d9e6fad88f4"
+		],
+		"description": "primair onderwijs, groep 3",
+		"title": "groep 3",
+		"id": "171d26b1-d4e7-48a0-97d0-d97a9660c391",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"5c072b3f-7f58-40ee-9799-27981f0a6b2b"
+		],
+		"description": "primair onderwijs, groep 4",
+		"title": "groep 4",
+		"id": "848b5a29-a147-4368-a910-8655c6deec5e",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"bc213214-b83d-4673-b9c1-8fdaa63d6d56"
+		],
+		"description": "primair onderwijs, groep 5",
+		"title": "groep 5",
+		"id": "da285666-5f4d-4a97-8519-8133c1e855c4",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"abfb190f-e814-46f5-a9cc-ebd53f04018e"
+		],
+		"description": "primair onderwijs, groep 6",
+		"title": "groep 6",
+		"id": "8b3a7db2-e48c-4604-b07b-196e7c485c54",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"a4813bb6-cf63-4594-af56-6afb321723d8"
+		],
+		"description": "primair onderwijs, groep 7",
+		"title": "groep 7",
+		"id": "db85b4d7-7264-47ba-be31-24f2423f86e9",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"95138558-9f65-4888-8ea3-8acce5eea273"
+		],
+		"description": "primair onderwijs, groep 8",
+		"title": "groep 8",
+		"id": "fd893fe5-5573-43a6-b8bb-64ff5db8ec77",
+		"unreleased": true
 	}
 ]
