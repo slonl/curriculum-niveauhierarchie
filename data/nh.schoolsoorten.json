@@ -21,7 +21,10 @@
 		"description": "Voorbereidend middelbaar beroepsonderwijs",
 		"title": "vmbo",
 		"id": "c8dad7b9-fa51-45bb-9c2b-49ecf3635aae",
-		"unreleased": true
+		"unreleased": true,
+		"nh_bouw_id": [
+			"696f01a3-6226-4be3-ae87-e5d75928ca18"
+		]
 	},
 	{
 		"title": "havo",
