@@ -19,5 +19,17 @@
 		"unreleased": true,
 		"prefix": "",
 		"description": ""
+	},
+	{
+		"niveau_id": [
+			"aced88e1-bb12-42f9-88df-16d7abfda57e"
+		],
+		"nh_niveau_id": [
+			"e6acddd9-d132-4aa3-8c20-9d7c8fd10b18",
+			"7c66271a-cac4-4496-a8d6-8eb8783e5e12"
+		],
+		"title": "Bovenbouw vmbo",
+		"id": "696f01a3-6226-4be3-ae87-e5d75928ca18",
+		"unreleased": true
 	}
 ]
