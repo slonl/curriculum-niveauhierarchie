@@ -1,14 +1,149 @@
 [
 	{
 		"niveau_id": [
-			"aced88e1-bb12-42f9-88df-16d7abfda57e"
+			"8450c011-f812-4f89-97a9-6b8820baffc5"
+		],
+		"nh_niveau_id": [
+			"7c66271a-cac4-4496-a8d6-8eb8783e5e12",
+			"e6acddd9-d132-4aa3-8c20-9d7c8fd10b18"
+		],
+		"title": "Bovenbouw vmbo tl",
+		"id": "696f01a3-6226-4be3-ae87-e5d75928ca18",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"c63858da-23e4-4e1e-8456-b4aa13a6a826"
+		],
+		"nh_niveau_id": [
+			"3583dab1-ca67-4c96-bb1f-b9dae01e263c",
+			"228f9977-65f8-4779-86b9-c8cdbaa69ce9"
+		],
+		"title": "Onderbouw vmbo tl",
+		"id": "0fecb4a1-a3a2-4b5c-80f3-245d80ddb2c1",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"01aede69-edcd-4352-97e8-e16cb5d0015e"
+		],
+		"nh_niveau_id": [
+			"3583dab1-ca67-4c96-bb1f-b9dae01e263c",
+			"228f9977-65f8-4779-86b9-c8cdbaa69ce9"
+		],
+		"title": "Onderbouw vmbo gl",
+		"id": "185a8990-1e7a-445e-96fe-f5e53aa4a0a6",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"64852857-b601-419f-9cbb-e1335a185303"
+		],
+		"nh_niveau_id": [
+			"7c66271a-cac4-4496-a8d6-8eb8783e5e12",
+			"e6acddd9-d132-4aa3-8c20-9d7c8fd10b18"
+		],
+		"title": "Bovenbouw vmbo gl",
+		"id": "0b50e146-7ab8-49dd-9e27-b254b0e4f3d1",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"2c0dd3c9-4432-4f0a-b103-f3ea2f5c1fc8"
+		],
+		"nh_niveau_id": [
+			"3583dab1-ca67-4c96-bb1f-b9dae01e263c",
+			"228f9977-65f8-4779-86b9-c8cdbaa69ce9"
+		],
+		"title": "Onderbouw vmbo kb",
+		"id": "3a2e4b98-9387-4f80-b039-41e0f6c3239b",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"8574855d-0670-42bf-9f73-dc6706278b8b"
+		],
+		"nh_niveau_id": [
+			"7c66271a-cac4-4496-a8d6-8eb8783e5e12",
+			"e6acddd9-d132-4aa3-8c20-9d7c8fd10b18"
+		],
+		"title": "Bovenbouw vmbo kb",
+		"id": "608a054b-5135-4378-89e8-47174e789348",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"50d3e467-28c8-4c42-a0fe-e0000819ba39"
+		],
+		"nh_niveau_id": [
+			"3583dab1-ca67-4c96-bb1f-b9dae01e263c",
+			"228f9977-65f8-4779-86b9-c8cdbaa69ce9"
+		],
+		"title": "Onderbouw vmbo bb",
+		"id": "37734dc4-d2b4-44e5-9c7a-936fd4a77560",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"861d98e4-e5ae-4ed7-89f6-f224605f7c97"
+		],
+		"nh_niveau_id": [
+			"7c66271a-cac4-4496-a8d6-8eb8783e5e12",
+			"e6acddd9-d132-4aa3-8c20-9d7c8fd10b18"
+		],
+		"title": "Bovenbouw vmbo bb",
+		"id": "b74723d4-533c-459d-bcaf-aa97cfcaa56d",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"5ca732b3-3ec2-4b13-9f08-d55b8739fe31"
+		],
+		"nh_niveau_id": [
+			"3583dab1-ca67-4c96-bb1f-b9dae01e263c",
+			"228f9977-65f8-4779-86b9-c8cdbaa69ce9",
+			"7c66271a-cac4-4496-a8d6-8eb8783e5e12"
+		],
+		"title": "Onderbouw havo",
+		"id": "729631c3-eeda-48d9-b8f4-f206862d351c",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"6dc8e1f2-a929-418f-b4e5-6be1204639da"
 		],
 		"nh_niveau_id": [
 			"e6acddd9-d132-4aa3-8c20-9d7c8fd10b18",
+			"b2a5dfbd-8766-47e6-8754-27580794f8bd"
+		],
+		"title": "Bovenbouw havo",
+		"id": "f35e3563-923a-4836-818f-f1f5b1500a9b",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"b5a4f104-fb2d-4c71-8f36-702d9567a752"
+		],
+		"nh_niveau_id": [
+			"3583dab1-ca67-4c96-bb1f-b9dae01e263c",
+			"228f9977-65f8-4779-86b9-c8cdbaa69ce9",
 			"7c66271a-cac4-4496-a8d6-8eb8783e5e12"
 		],
-		"title": "Bovenbouw vmbo",
-		"id": "696f01a3-6226-4be3-ae87-e5d75928ca18",
+		"title": "Onderbouw vwo",
+		"id": "7f4d20d1-f62b-44b1-a182-971071724999",
+		"unreleased": true
+	},
+	{
+		"niveau_id": [
+			"caf5e806-cdb6-4d62-a5ed-0c3c1ff3e0bb"
+		],
+		"nh_niveau_id": [
+			"e6acddd9-d132-4aa3-8c20-9d7c8fd10b18",
+			"b2a5dfbd-8766-47e6-8754-27580794f8bd",
+			"1c53dd6b-c85a-4fb2-b65f-cf422cfbce66"
+		],
+		"title": "Bovenbouw vwo",
+		"id": "9cd3f947-a171-4b0e-8a4f-fbacd270ffcb",
 		"unreleased": true
 	}
 ]
