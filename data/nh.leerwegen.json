@@ -1,16 +1,5 @@
 [
 	{
-		"title": "kb",
-		"id": "b3a4b42b-5764-4305-a47c-52d70df1930a",
-		"unreleased": true,
-		"prefix": "",
-		"description": "kaderberoeps leerweg",
-		"nh_bouw_id": [
-			"3a2e4b98-9387-4f80-b039-41e0f6c3239b",
-			"608a054b-5135-4378-89e8-47174e789348"
-		]
-	},
-	{
 		"title": "bb",
 		"id": "378225e8-3d43-4d44-ba7d-9c196fdf7e55",
 		"unreleased": true,
@@ -19,6 +8,17 @@
 		"nh_bouw_id": [
 			"37734dc4-d2b4-44e5-9c7a-936fd4a77560",
 			"b74723d4-533c-459d-bcaf-aa97cfcaa56d"
+		]
+	},
+	{
+		"title": "kb",
+		"id": "b3a4b42b-5764-4305-a47c-52d70df1930a",
+		"unreleased": true,
+		"prefix": "",
+		"description": "kaderberoeps leerweg",
+		"nh_bouw_id": [
+			"3a2e4b98-9387-4f80-b039-41e0f6c3239b",
+			"608a054b-5135-4378-89e8-47174e789348"
 		]
 	},
 	{
