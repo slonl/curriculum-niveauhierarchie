@@ -13,10 +13,10 @@
 			"c7942bb1-bf4f-409f-bc98-9a0b02f175dc"
 		],
 		"nh_leerweg_id": [
-			"378225e8-3d43-4d44-ba7d-9c196fdf7e55",
-			"b3a4b42b-5764-4305-a47c-52d70df1930a",
+			"4e93e1bc-2d8d-4ba0-867f-889c032462b4",
 			"cda74c5a-d13a-4892-b4fa-9f0a6760b3fb",
-			"4e93e1bc-2d8d-4ba0-867f-889c032462b4"
+			"b3a4b42b-5764-4305-a47c-52d70df1930a",
+			"378225e8-3d43-4d44-ba7d-9c196fdf7e55"
 		],
 		"description": "Voorbereidend middelbaar beroepsonderwijs",
 		"title": "vmbo",
@@ -34,6 +34,10 @@
 		"description": "Hoger algemeen voortgezet onderwijs",
 		"niveau_id": [
 			"a3ddbe60-8478-4204-b769-6f5e9f4cbca2"
+		],
+		"nh_bouw_id": [
+			"729631c3-eeda-48d9-b8f4-f206862d351c",
+			"f35e3563-923a-4836-818f-f1f5b1500a9b"
 		]
 	},
 	{
@@ -43,7 +47,11 @@
 		"description": "Voorbereidend wetenschappelijk onderwijs",
 		"title": "vwo",
 		"id": "dcf503ac-7bcd-41bf-bf1e-410c9db77a7d",
-		"unreleased": true
+		"unreleased": true,
+		"nh_bouw_id": [
+			"7f4d20d1-f62b-44b1-a182-971071724999",
+			"9cd3f947-a171-4b0e-8a4f-fbacd270ffcb"
+		]
 	},
 	{
 		"niveau_id": [
