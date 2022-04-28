@@ -160,7 +160,7 @@
                 { "required": ["id","title","nh_schoolsoort_id"] },
                 { "required": ["id","title","nh_leerweg_id"] }
             ]
-        },        
+        },
         "nh_niveau": {
             "allOf": [ { "$ref": "https://opendata.slo.nl/curriculum/schemas/curriculum-basis/context.json#/definitions/inhoud" } ],
             "properties": {
