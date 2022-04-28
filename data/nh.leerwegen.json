@@ -4,27 +4,43 @@
 		"id": "b3a4b42b-5764-4305-a47c-52d70df1930a",
 		"unreleased": true,
 		"prefix": "",
-		"description": "kaderberoeps leerweg"
+		"description": "kaderberoeps leerweg",
+		"nh_bouw_id": [
+			"3a2e4b98-9387-4f80-b039-41e0f6c3239b",
+			"608a054b-5135-4378-89e8-47174e789348"
+		]
 	},
 	{
 		"title": "bb",
 		"id": "378225e8-3d43-4d44-ba7d-9c196fdf7e55",
 		"unreleased": true,
 		"prefix": "",
-		"description": "basisberoeps leerweg"
+		"description": "basisberoeps leerweg",
+		"nh_bouw_id": [
+			"37734dc4-d2b4-44e5-9c7a-936fd4a77560",
+			"b74723d4-533c-459d-bcaf-aa97cfcaa56d"
+		]
 	},
 	{
 		"title": "gl",
 		"id": "cda74c5a-d13a-4892-b4fa-9f0a6760b3fb",
 		"unreleased": true,
 		"prefix": "",
-		"description": "gemengde leerweg"
+		"description": "gemengde leerweg",
+		"nh_bouw_id": [
+			"185a8990-1e7a-445e-96fe-f5e53aa4a0a6",
+			"0b50e146-7ab8-49dd-9e27-b254b0e4f3d1"
+		]
 	},
 	{
 		"title": "tl",
 		"id": "4e93e1bc-2d8d-4ba0-867f-889c032462b4",
 		"unreleased": true,
 		"prefix": "",
-		"description": "theoretische leerweg"
+		"description": "theoretische leerweg",
+		"nh_bouw_id": [
+			"0fecb4a1-a3a2-4b5c-80f3-245d80ddb2c1",
+			"696f01a3-6226-4be3-ae87-e5d75928ca18"
+		]
 	}
 ]
