@@ -164,8 +164,7 @@
             "anyOf": [
                 { "required": ["id","title","nh_sector_id"] },
                 { "required": ["id","title","nh_schoolsoort_id"] },
-                { "required": ["id","title","nh_leerweg_id"] },
-                { "required": ["id","title","nh_bouw_id"] }
+                { "required": ["id","title","nh_leerweg_id"] }
             ]
         },
         "nh_niveau": {
